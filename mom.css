@@ -1,14 +1,42 @@
 .box {width: 250px;
-    height: 340px;
+    height: 220px;
     padding: 20px;
     border: 3px solid black;
-    background: solid white;
+    background: solid black;
 line-height: 22px;}
 
 
-* {color: white;
+* {color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
-body{background-image: url(https://i.pinimg.com/originals/d1/24/86/d1248616fb7f4ffe938b102dfa5bf604.jpg);}
+body{background-image: url(https://i.pinimg.com/originals/9e/74/7d/9e747dd76f1be3d062748e6b3d030f6b.jpg);}
 textarea {color: black;}
-
+a:link a: visited {color: black;}
 a:hover{color: black;}
+
+a {color: black;}
+
+ .imagesman {justify-content: center;
+    display: flex;
+    transition: all 1s;}
+.imagesman:hover {transform: scale(1.1);}
+
+.card1 {margin: 50px;
+border: 3px solid black ;
+}
+.card2 {margin: 50px;
+border: 3px solid black ;
+}
+
+
+* {margin-left: 5px;}
+
+.card-img-top {height: 600px;}
+
+.table-hover {border: 3px solid black;}
+
+.theading {border: 3px solid black;}
+
+.dropdown { border: 2px solid black; }
+
+.nav-item { border: 2px solid black;
+margin: 13px; }
