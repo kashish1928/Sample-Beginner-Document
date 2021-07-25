@@ -5,13 +5,12 @@
     background: solid black;
 line-height: 22px;}
 
-
 * {color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/}
 body{background-image: url(https://i.pinimg.com/originals/9e/74/7d/9e747dd76f1be3d062748e6b3d030f6b.jpg);}
 textarea {color: black;}
 a:link a: visited {color: black;}
-a:hover{color: black;}
+a:hover{color: blue;}
 
 a {color: black;}
 
@@ -38,5 +37,17 @@ border: 3px solid black ;
 
 .dropdown { border: 2px solid black; }
 
-.nav-item { border: 2px solid black;
-margin: 13px; }
+.nav-item { border: 2px solid black;}
+
+.btn {border-radius: 300px;}
+
+.btn:hover {background-color: black;
+color: white;
+width: 100px;}
+
+.titlethisis {border-right:2px  solid black;
+border-bottom: 2px solid black;
+width: 700px;
+text-align: center;
+box-shadow: 5px 5px #c4c2bb;
+font-family: 'Acme', sans-serif;}
